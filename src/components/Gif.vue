@@ -1,6 +1,6 @@
 <template>
   <div class="image">
-    <img :src="gif.images.fixed_height.url" alt="" />
+    <img :src="gif.images.fixed_height.url" />
   </div>
 </template>
 
