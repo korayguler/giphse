@@ -43,7 +43,6 @@ export default {
         .catch((err) => console.warn(err));
     },
     search(searchQuery) {
-      this.searchQuery = searchQuery;
       if (!searchQuery) {
         this.trend();
       } else {

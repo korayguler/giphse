@@ -51,6 +51,9 @@ export default {
   outline: 0;
   border: 0;
   background: transparent;
-  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 2px 0 5px rgba(0, 0, 0, 0.4);
+}
+.search-nav .search-input::placeholder {
+  color: #999;
 }
 </style>
